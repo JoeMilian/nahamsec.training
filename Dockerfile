@@ -13,6 +13,7 @@ RUN apt-get -qq update -y && \
     php-pdo \
     php-mysql \
     php-curl \
+    gnupg \
     php-xml && \
     echo "Packages Installed"
 
